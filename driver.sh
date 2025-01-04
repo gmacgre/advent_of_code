@@ -13,8 +13,8 @@ then
     echo "./driver.sh <command> <year> <question> <args>"
     echo "Commands:"
     echo "make      : Makes a new Folder and Default files"
-    echo "transfer  : Copies the contents of <year>-<question> part 1 into <year>-<question> part 2"
-    echo "run       : Runs <year>-<question> on normal input. Add 'test' arg for test input"
+    echo "transfer  : Copies the contents of <year>/<question>-1.py into <year>/<question>-2.py"
+    echo "run       : Runs <year>/<question>-<part>.py on normal input. Add 'test' arg after <part> for test input"
 elif [ "$command" = "make" ]
 then
     echo "Making Workspace for $year-$question..."
