@@ -1,4 +1,2 @@
 import sys
-input = sys.stdin
-
-lines = input.read().split('\n')
+input = sys.stdin.read().split('\n')
