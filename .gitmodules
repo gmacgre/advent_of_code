@@ -7,3 +7,6 @@
 [submodule "2015"]
 	path = 2015
 	url = git@github.com:gmacgre/advent_of_code_2015.git
+[submodule "2016"]
+	path = 2016
+	url = git@github.com:gmacgre/advent_of_code_2016.git
